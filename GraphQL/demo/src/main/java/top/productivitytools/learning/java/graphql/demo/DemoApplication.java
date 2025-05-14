@@ -1,13 +1,13 @@
-package top.productivitytools.learning.GraphQl.pwdemoapplication;
+package top.productivitytools.learning.java.graphql.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PwdemoapplicationApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PwdemoapplicationApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }

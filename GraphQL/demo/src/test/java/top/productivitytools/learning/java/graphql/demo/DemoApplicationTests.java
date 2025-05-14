@@ -1,10 +1,10 @@
-package top.productivitytools.learning.GraphQl.pwdemoapplication;
+package top.productivitytools.learning.java.graphql.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PwdemoapplicationApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
