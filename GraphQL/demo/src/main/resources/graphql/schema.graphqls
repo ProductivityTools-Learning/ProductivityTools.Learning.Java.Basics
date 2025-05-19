@@ -1,5 +1,8 @@
 type Query {
-    bookById(id: ID): Book
+    bookById2(id: ID): Book
+}
+type Mutation{
+    add(a: Int!, b: Int!): Int!
 }
 
 type Book {

@@ -24,7 +24,3 @@ dependencies {
 	testImplementation 'org.springframework.graphql:spring-graphql-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
-
-tasks.named('test') {
-	useJUnitPlatform()
-}
