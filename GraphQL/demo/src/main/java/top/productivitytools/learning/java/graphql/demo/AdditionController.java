@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class AdditionController {
     @QueryMapping
-    public Integer Add(@Argument Integer a, @Argument Integer b) {
+    public Integer add(@Argument Integer a, @Argument Integer b) {
         return a + b;
     }
 }
