@@ -1,6 +1,17 @@
 type Query {
     bookById3(id: ID): Book
     add(a: Int!, b: Int!): Int!
+    getPerson: Person
+}
+
+type Person {
+    firstName: String
+    lastName: String
+    personAddress: PersonAddress
+}
+
+type PersonAddress {
+    street: String
 }
 
 type Book {
